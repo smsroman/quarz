@@ -27,7 +27,7 @@ jobs:
 
       - run: npm ci
 
-      - run: npx quartz plugin install --from-lock
+      - run: npx quartz plugin install
       - run: npx quartz build
 
       - uses: actions/upload-pages-artifact@v3
